@@ -3,6 +3,8 @@ pragma solidity ^0.8.5;
 
 contract FunctionTypes{
     uint256 public number = 5;
+    address addr;
+
     // 默认
     function add() external {
         number+=1;
